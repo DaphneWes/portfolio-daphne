@@ -1,0 +1,79 @@
+.container-navbar button {
+    background-color: inherit;
+}
+
+header {
+    width: 100%;
+    z-index: 99;
+    position: fixed;
+}
+
+.navbar-large {
+    align-items: center;
+    justify-content: space-between;
+    display:flex;
+}
+
+.navbar-small-button {
+    background-color: inherit;
+    color: white;
+    z-index:100;
+    padding-top: 15px;
+}
+
+.hamburger {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.theme-changer {
+    position: absolute;
+    right: 70px;
+    top: 10px;
+}
+
+.close {
+    position: absolute;
+    right: 20px;
+}
+.dark-navbar {
+    background: #171923;
+    color: white;
+}
+
+.light-navbar {
+    background: #edf2f7;
+    color: black;
+}
+
+.column-1 {
+    padding: 10px 5px 10px 15px;
+}
+
+.column-2 {
+    justify-content: end;
+    padding-right: 30px;
+}
+
+.navbar-small-open {
+    padding: 10px 10px 20px 10px;
+    height: 250px;
+    background-color: inherit;
+}
+
+.navbar-small-open ul {
+    list-style: none;
+    padding-top: 30px;
+    padding-left: 0px;
+}
+
+.navbar-small-open li {
+    margin: 5px auto;
+    width:75%;
+}
+
+.navbar-small {
+    height: 60px;
+    background: inherit;
+}

@@ -1,0 +1,50 @@
+.container-portfolio {
+    text-align: left;
+    align-items: center;
+    padding: 75px 0px;
+}
+
+.num-portfolio {
+    display:inline-block;
+    padding-right: 15px;
+    color: #38b2ac;
+}
+
+.title-portfolio {
+    display:inline-block;
+}
+
+.projects-grid img {
+    height:236%;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.projects-grid {
+    padding-top: 20px;
+    list-style: none;
+}
+
+.project-card {
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+li {
+    margin: 40px 20px;
+    border-radius: 10px;
+}
+
+.dark li {
+    background-color: #2d3748;
+}
+
+.light li {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+@media screen and (max-width: 800px) {
+    .container-portfolio{
+        padding: 75px 20px;
+    }
+}

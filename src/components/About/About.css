@@ -1,0 +1,24 @@
+.container-about {
+    text-align: left;
+    align-items: center;
+    padding-top: 150px;
+}
+.num-about {
+    display:inline-block;
+    padding-right: 15px;
+    color: #38b2ac;
+}
+
+.title-about {
+    display:inline-block;
+}
+
+.info {
+    text-align: center;
+    padding-top: 30px;
+}
+@media screen and (max-width: 800px) {
+    .container-about {
+        padding: 150px 20px 10px 20px;
+    }
+}

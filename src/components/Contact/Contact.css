@@ -1,0 +1,28 @@
+.container-contact {
+    text-align: left;
+}
+
+.num-contact {
+    display:inline-block;
+    padding-right: 15px;
+    color: #38b2ac;
+}
+
+.title-contact {
+    display:inline-block;
+}
+
+.details-contact {
+    text-align: center;
+    color:#38b2ac;
+    font-size: 20px;;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 150px;
+}
+
+@media screen and (max-width: 800px) {
+    .container{
+        padding: 75px 20px;
+    }
+}

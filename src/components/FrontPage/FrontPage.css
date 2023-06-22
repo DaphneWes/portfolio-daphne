@@ -1,0 +1,22 @@
+.container-frontpage {
+    width:100%;
+    margin-inline: auto;
+    font-size: calc(25px + 2vmin);
+    font-weight: 600;
+}
+
+.name {
+    padding-top: 150px;
+}
+
+.title {
+    color: #38b2ac;
+}
+
+.description {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: calc(10px + 1vmin);
+    font-weight: 200;
+}
+
