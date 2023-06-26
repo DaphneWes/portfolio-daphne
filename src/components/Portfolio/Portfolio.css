@@ -58,9 +58,16 @@ li {
     font-weight: 600;
     transform-origin: 0 0;
     transform: rotate(270deg);
-    background-color: #2d3748;
     margin-top: 260px;
 } 
+
+.dark .hover-play {
+    background-color: #2d3748;
+}
+
+.light .hover-play {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
 
 .video-portfolio:hover .hover-play {
     visibility: hidden;
