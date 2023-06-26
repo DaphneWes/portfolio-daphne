@@ -20,6 +20,12 @@
     border-radius: 10px 10px 0 0;
 }
 
+.projects-grid video {
+    height:236%;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
 .projects-grid {
     padding-top: 20px;
     list-style: none;
@@ -41,6 +47,23 @@ li {
 
 .light li {
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.hover-play {
+    visibility: visible;
+    padding: 5px 10px;
+    position: absolute;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    background-color: #2d3748;
+    margin-top: 260px;
+} 
+
+.video-portfolio:hover .hover-play {
+    visibility: hidden;
 }
 
 @media screen and (max-width: 800px) {
